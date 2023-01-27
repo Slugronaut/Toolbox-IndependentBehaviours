@@ -1,0 +1,19 @@
+{
+    "name": "com.postegames.toolbox.independentbehaviours.editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:ad5a831d71736194ba16f23ea251896d",
+        "GUID:24e191f3e518fcb44af69a22c697d56c"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
