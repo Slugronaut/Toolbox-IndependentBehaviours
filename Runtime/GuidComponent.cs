@@ -33,7 +33,9 @@ namespace Toolbox
         void Awake()
         {
             Guid = Guid.NewGuid();
+            #if UNITY_EDITOR
             GuidId = Guid.ToString();
+            #endif
         }
 
     }
