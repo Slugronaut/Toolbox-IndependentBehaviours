@@ -1,7 +1,8 @@
-﻿using UnityEngine;
+﻿using Peg.Lib;
+using UnityEngine;
 using UnityEngine.Events;
 
-namespace Toolbox.Behaviours
+namespace Peg.Behaviours
 {
     /// <summary>
     /// Invokes a UnityEvent when this object is outside a viewport.
@@ -36,7 +37,7 @@ namespace Toolbox.Behaviours
             if(Time.time - LastTime > Cooldown)
             {
                 LastTime = Time.time;
-                if (!Math.MathUtils.IsInViewport(Cam, Trans.position, xSafety, ySafety))
+                if (!MathUtils.IsInViewport(Cam, Trans.position, xSafety, ySafety))
                     OnOffscreen.Invoke();
                 else OnOnScreen.Invoke();
             }

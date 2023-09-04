@@ -3,7 +3,7 @@ using System;
 using Sirenix.OdinInspector;
 
 
-namespace Toolbox.Behaviours
+namespace Peg.Behaviours
 {
     /// <summary>
     /// Each frame, sets the specified axies to have zero velocity on a given rigidbody.

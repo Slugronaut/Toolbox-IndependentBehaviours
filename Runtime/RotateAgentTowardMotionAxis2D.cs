@@ -3,7 +3,7 @@ using UnityEngine.AI;
 
 
 
-namespace Toolbox.Behaviours
+namespace Peg.Behaviours
 {
     /// <summary>
     /// Rotates this object to face either left or right on the x-axis
@@ -23,9 +23,9 @@ namespace Toolbox.Behaviours
 
         void LateUpdate()
         {
-            if (Agent.velocity.x > Toolbox.Thresholds.Tenth)
+            if (Agent.velocity.x > Peg.Thresholds.Tenth)
                 Trans.eulerAngles = new Vector3(0, 90, 0);
-            else if (Agent.velocity.x < -Toolbox.Thresholds.Tenth)
+            else if (Agent.velocity.x < -Peg.Thresholds.Tenth)
                 Trans.eulerAngles = new Vector3(0, -90, 0);
         }
     }

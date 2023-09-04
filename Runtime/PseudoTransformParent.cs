@@ -2,7 +2,7 @@
 using System;
 using Sirenix.OdinInspector;
 
-namespace Toolbox.Behaviours
+namespace Peg.Behaviours
 {
     /// <summary>
     /// Can be used 'fake parent' one transform to another without actually

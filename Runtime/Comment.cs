@@ -1,7 +1,7 @@
 ﻿#if UNITY_EDITOR
 using UnityEngine;
 
-namespace Toolbox
+namespace Peg
 {
     /// <summary>
     /// Handy component for adding 'comments' to a scene hierarchy.

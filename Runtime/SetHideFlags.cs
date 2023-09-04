@@ -2,7 +2,7 @@
 using System.Collections;
 
 
-namespace Toolbox.Behaviours
+namespace Peg.Behaviours
 {
     /// <summary>
     /// Sets the hideflags for this component's GameObject.

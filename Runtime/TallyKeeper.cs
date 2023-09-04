@@ -2,7 +2,7 @@
 using UnityEngine.Events;
 using Sirenix.OdinInspector;
 
-namespace Toolbox.Behaviours
+namespace Peg.Behaviours
 {
     public class TallyKeeper : MonoBehaviour
     {

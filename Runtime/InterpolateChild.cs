@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
-using Toolbox.Math;
+using Peg.Lib;
 
-namespace Toolbox.Behaviours
+namespace Peg.Behaviours
 {
     /// <summary>
     /// Causes a GameObject to interpolate its position based on its parent every frame.

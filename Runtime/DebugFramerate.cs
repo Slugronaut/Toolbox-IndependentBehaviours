@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-namespace Toolbox.Behaviours
+namespace Peg.Behaviours
 {
     /// <summary>
     /// Can be used to limit the framerate in a debug build of the game, making it easier to observe the profiler in real time.

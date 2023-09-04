@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using UnityEditor;
-using Toolbox.Behaviours;
+using Peg.Behaviours;
 
 
-namespace Toolbox.ToolboxEditor
+namespace Peg.ToolboxEditor
 {
     [UnityEditor.CustomEditor(typeof(AudioSourceLoopPoints))]
     public class AudioSourceLoopPointsEditor : UnityEditor.Editor
