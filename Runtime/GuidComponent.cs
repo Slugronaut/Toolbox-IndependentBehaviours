@@ -6,7 +6,7 @@ using Sirenix.OdinInspector;
 using UnityEditor;
 #endif
 
-namespace Peg
+namespace Peg.Behaviours
 {
     /// <summary>
     /// Generates a GUID upon awakening.

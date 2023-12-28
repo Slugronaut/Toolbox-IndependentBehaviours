@@ -1,7 +1,6 @@
-﻿#if UNITY_EDITOR
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace Peg
+namespace Peg.Behaviours
 {
     /// <summary>
     /// Handy component for adding 'comments' to a scene hierarchy.
@@ -39,4 +38,3 @@ namespace Peg
         #endif
     }
 }
-#endif
